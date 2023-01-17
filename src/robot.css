@@ -1,0 +1,17 @@
+.robo{
+    background-color:rgba(0, 155, 162,0.5);
+    color: rgb(49, 10, 10);
+    width:230px;
+    height:340px;
+    padding: 10px;
+    margin: 7px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px black;
+}
+.robo:hover{
+    box-shadow: 4px 5px 10px black;
+    transform: scale(1.05);
+    transition: all 0.6s;
+}
